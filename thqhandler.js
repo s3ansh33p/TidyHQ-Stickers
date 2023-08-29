@@ -23,9 +23,10 @@ async function auth() {
 }
 
 async function getGroup() {
-    let group = await client.Groups.getGroupByName("2023-International Sundowner-28-08-MailingList");
+    // let group = await client.Groups.getGroupByName("2023-International Sundowner");
     // let group = await client.Groups.getGroupByName("Current Members");
-    let contacts = await client.Contacts.getContactsInGroup(group.id);
+    // let contacts = await client.Contacts.getContactsInGroup(group.id);
+    let contacts = await client.Contacts.getContactsInGroup(156920);
     let names = [];
     for (let i = 0; i < contacts.length; i++) {
         let contact = contacts[i];
