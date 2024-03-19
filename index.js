@@ -7,7 +7,7 @@ const path = require("path");
 
 // Load the docx file as binary content
 const content = fs.readFileSync(
-    path.resolve(__dirname, "TemplateV4.docx"),
+    path.resolve(__dirname, "TemplateV5.docx"),
     "binary"
 );
 
