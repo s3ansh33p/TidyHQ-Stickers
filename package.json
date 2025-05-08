@@ -2,7 +2,8 @@
   "dependencies": {
     "docxtemplater": "^3.34.3",
     "dotenv": "^16.0.3",
-    "pizzip": "^3.1.4"
+    "pizzip": "^3.1.4",
+    "tidyhq": "^1.0.2"
   },
   "name": "stickers",
   "version": "1.0.0",
